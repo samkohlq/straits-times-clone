@@ -4,7 +4,7 @@ class Navbar extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <nav class="navbar navbar-expand-lg justify-content-between my-0">
+        <div class="row my-2 justify-content-between">
           {/* left side of top navbar */}
           <div>
             <ul className="list-inline small text-dark">
@@ -53,7 +53,7 @@ class Navbar extends React.Component {
               <li className="list-inline-item">ePAPER</li>
             </ul>
           </div>
-        </nav>
+        </div>
       </React.Fragment>
     );
   }
