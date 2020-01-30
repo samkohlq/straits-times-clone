@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "../images/straits-times-mini-logo.png";
 import SearchIcon from "../images/search-icon.png";
 
-class MainNavbar extends React.Component {
+class BottomNavbar extends React.Component {
   render() {
     return (
       <React.Fragment>
@@ -94,4 +94,4 @@ class MainNavbar extends React.Component {
   }
 }
 
-export default MainNavbar;
+export default BottomNavbar;

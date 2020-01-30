@@ -1,6 +1,6 @@
 import React from "react";
 import TopNavbar from "./components/TopNavbar";
-import MainNavbar from "./components/MainNavbar";
+import BottomNavbar from "./components/BottomNavbar";
 import STLogo from "./components/STLogo";
 import "./App.css";
 
@@ -14,7 +14,7 @@ function App() {
           <STLogo />
         </div>
         <div className="col-lg-12">
-          <MainNavbar />
+          <BottomNavbar />
         </div>
       </div>
     </div>
