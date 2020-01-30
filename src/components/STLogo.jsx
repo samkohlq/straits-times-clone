@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../images/straits-times-logo";
+import Logo from "../images/straits-times-logo.png";
 
 class STLogo extends React.Component {
   render() {

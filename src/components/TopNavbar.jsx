@@ -1,6 +1,6 @@
 import React from "react";
 
-class Navbar extends React.Component {
+class TopNavbar extends React.Component {
   render() {
     return (
       <React.Fragment>
@@ -43,14 +43,30 @@ class Navbar extends React.Component {
           </div>
           {/* right side of top navbar */}
           <div>
-            <ul className="list-inline small text-dark">
-              <li className="list-inline-item text-uppercase">Log in</li>
+            <ul className="list-inline small">
+              <li className="list-inline-item text-uppercase">
+                <a className="text-dark" href="#">
+                  Log in
+                </a>
+              </li>
               <span>| </span>
-              <li className="list-inline-item text-uppercase">Subscribe</li>
+              <li className="list-inline-item text-uppercase">
+                <a className="text-dark" href="#">
+                  Subscribe
+                </a>
+              </li>
               <span>| </span>
-              <li className="list-inline-item text-uppercase">Print edition</li>
+              <li className="list-inline-item text-uppercase">
+                <a className="text-dark" href="#">
+                  Print Edition
+                </a>
+              </li>
               <span>| </span>
-              <li className="list-inline-item">ePAPER</li>
+              <li className="list-inline-item">
+                <a className="text-dark" href="#">
+                  ePAPER
+                </a>
+              </li>
             </ul>
           </div>
         </div>
@@ -59,4 +75,4 @@ class Navbar extends React.Component {
   }
 }
 
-export default Navbar;
+export default TopNavbar;
