@@ -6,7 +6,7 @@ class STLogo extends React.Component {
     return (
       <div class="row my-2">
         <img
-          className="col-lg-8 img-fluid float-left"
+          className="col-lg-6 offset-lg-1 img-fluid float-left my-2"
           src={Logo}
           alt="straits times logo"
         />
