@@ -1,14 +1,14 @@
 import React from "react";
 import "./App.css";
-import MainNavbar from "./components/MainNavbar";
+import NavBlock from "./components/NavBlock";
 
 function App() {
   return (
     <div className="App">
       {/* row for top navbar */}
-      <div className="row">
+      <div className="row justify-content-center">
         <div>
-          <MainNavbar />
+          <NavBlock />
         </div>
       </div>
     </div>

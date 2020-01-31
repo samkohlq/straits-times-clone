@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../images/straits-times-logo.png";
 
-class STLogo extends React.Component {
+class StLogo extends React.Component {
   render() {
     return (
       <div class="row my-2">
@@ -15,4 +15,4 @@ class STLogo extends React.Component {
   }
 }
 
-export default STLogo;
+export default StLogo;
