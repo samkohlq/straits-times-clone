@@ -1,6 +1,6 @@
 import React from "react";
 
-import image from "../images/st-news-tablet.png";
+import image from "../../images/st-news-tablet.png";
 
 class StNewsTablet extends React.Component {
   render() {

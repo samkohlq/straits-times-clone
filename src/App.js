@@ -1,8 +1,9 @@
 import React from "react";
 import "./App.css";
-import NavBlock from "./components/NavBlock";
-import Ad from "./components/Ad";
-import StNewsTablet from "./components/StNewsTablet";
+import NavBlock from "./components/NavBlock/NavBlock";
+import Ad from "./components/Ads/Ad";
+import StNewsTablet from "./components/Ads/StNewsTablet";
+import TopStories from "./components/TopStories/TopStories";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <NavBlock />
         <Ad />
         <StNewsTablet />
+        <TopStories />
       </div>
     </div>
   );

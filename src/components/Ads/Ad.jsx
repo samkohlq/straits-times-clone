@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./Ad.css";
-import image from "../images/ad.png";
+import image from "../../images/ad.png";
 
 class Ad extends React.Component {
   render() {

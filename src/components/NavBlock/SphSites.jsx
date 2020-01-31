@@ -42,7 +42,7 @@ class SphSites extends React.Component {
             </ul>
           </div>
           {/* right side of top navbar */}
-          <div className="col-lg-4 col-md-4">
+          <div className="col-lg-4 col-md-5 text-right">
             <ul className="list-inline small">
               <li className="list-inline-item text-uppercase">
                 <a className="text-dark" href="#">

@@ -1,8 +1,8 @@
 import React from "react";
 
-import Logo from "../images/straits-times-mini-logo.png";
+import Logo from "../../images/straits-times-mini-logo.png";
 import "./NavBar.css";
-import SearchIcon from "../images/search-icon.png";
+import SearchIcon from "../../images/search-icon.png";
 
 class NavBar extends React.Component {
   render() {

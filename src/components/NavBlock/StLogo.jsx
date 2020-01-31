@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./StLogo.css";
-import Logo from "../images/straits-times-logo.png";
+import Logo from "../../images/straits-times-logo.png";
 
 class StLogo extends React.Component {
   render() {
