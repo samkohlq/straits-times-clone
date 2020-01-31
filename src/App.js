@@ -1,15 +1,15 @@
 import React from "react";
 import "./App.css";
 import NavBlock from "./components/NavBlock";
+import Ad from "./components/Ad";
 
 function App() {
   return (
     <div className="App">
       {/* row for top navbar */}
-      <div className="row justify-content-center">
-        <div>
-          <NavBlock />
-        </div>
+      <div>
+        <NavBlock />
+        <Ad />
       </div>
     </div>
   );

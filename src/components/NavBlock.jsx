@@ -7,7 +7,7 @@ import NavBar from "./NavBar";
 class NavBlock extends React.Component {
   render() {
     return (
-      <div className="container-fluid">
+      <div className="row justify-content-center">
         <SphSites />
         <StLogo />
         <NavBar />
