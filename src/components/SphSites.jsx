@@ -3,7 +3,7 @@ import React from "react";
 class SphSites extends React.Component {
   render() {
     return (
-      <div className="col-lg-8 col-md-10 border border-danger mt-2">
+      <div className="col-lg-8 col-md-10 mt-2">
         <div className="row justify-content-between">
           {/* SPH sites */}
           <div className="col-lg-8 col-md-6">

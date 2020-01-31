@@ -8,10 +8,11 @@ class NavBar extends React.Component {
   render() {
     return (
       <div className="col-lg-12">
-        <div className="row my-2 navbar-bgd justify-content-center">
+        <div className="row mt-2 navbar-bgd justify-content-center">
           <div>
             <img
-              className="navbar-icon col-lg-8 float-right"
+              // TODO: vertically align logo
+              className="navbar-icon float-right"
               src={Logo}
               alt="straits times logo"
             />
@@ -85,7 +86,7 @@ class NavBar extends React.Component {
           </ul>
           <div>
             <img
-              className="navbar-icon col-lg-8 img-fluid float-left my-2"
+              className="navbar-icon img-fluid float-left my-2"
               src={SearchIcon}
               alt="straits times logo"
             />

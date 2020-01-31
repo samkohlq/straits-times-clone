@@ -7,9 +7,9 @@ class StLogo extends React.Component {
   render() {
     return (
       // TODO: align logo to left
-      <div className="col-lg-12 col-md-8 border border-success">
+      <div className="col-lg-12 col-md-8">
         <div className="row">
-          <div className="col-lg-6 col-md-12 border border-secondary">
+          <div className="col-lg-6 col-md-12">
             <img className="logo" src={Logo} alt="straits times logo" />
           </div>
         </div>
