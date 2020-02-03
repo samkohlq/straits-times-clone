@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Nav, Row } from "react-bootstrap";
 
-import "../static/css/Subsection.css";
+import "../static/css/TopStoriesHeader.css";
 
 class TopStoriesHeader extends React.Component {
   render() {

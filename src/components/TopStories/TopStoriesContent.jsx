@@ -1,8 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 
-import "../static/css/Subsection.css";
-
 class TopStoriesContent extends React.Component {
   render() {
     return (
