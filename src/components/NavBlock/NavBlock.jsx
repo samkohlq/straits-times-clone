@@ -14,11 +14,15 @@ class NavBlock extends React.Component {
             <Col md={1}></Col>
             <Col lg={12} md={10}>
               <SphSites />
+              <Row>
+                <Col lg={7} md={6} xm={8}>
+                  <StLogo />
+                </Col>
+              </Row>
             </Col>
             <Col md={1}></Col>
           </Row>
         </Container>
-        <StLogo />
         <NavBar />
       </div>
     );

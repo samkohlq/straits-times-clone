@@ -6,7 +6,7 @@ import "./SphSites.css";
 class SphSites extends React.Component {
   render() {
     return (
-      <Nav className="small justify-content-between">
+      <Nav className="mx-4 small justify-content-between">
         <div>
           <Nav.Item className="list-inline-item text-uppercase">
             Edition:
