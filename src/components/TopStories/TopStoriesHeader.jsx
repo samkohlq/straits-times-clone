@@ -1,27 +1,32 @@
 import React from "react";
+import { Col, Nav, Row } from "react-bootstrap";
 
 import "../Subsection.css";
 
 class TopStoriesHeader extends React.Component {
   render() {
     return (
-      <div className="col-lg-8 col-md-10 mt-2">
-        <div className="row justify-content-between">
-          {/* top stories title */}
-          <div className="col-lg-8 col-md-6 px-0 subsection-title">
-            Top stories
-          </div>
-          {/* date, temp, ST index */}
-          {/* TODO: align vertically to bottom */}
-          <ul className="subsection-details text-right">
-            <li className="list-inline-item text-uppercase">[Date]</li>
-            <span>| </span>
-            <li className="list-inline-item text-uppercase">[Temp]</li>
-            <span>| </span>
-            <li className="list-inline-item text-uppercase">[ST Index]</li>
-          </ul>
-        </div>
-      </div>
+      <Row className="justify-content-between">
+        {/* top stories title */}
+        <Col lg={8} md={6} className="subsection-title border border-primary">
+          Top stories
+        </Col>
+        {/* date, temp, ST index */}
+        {/* TODO: align vertically to bottom */}
+        <Col lg={4} md={6} className="border border-primary">
+          <Nav className="border border-primary float-right">
+            <Nav.Item className="list-inline-item text-uppercase small">
+              [Date]
+            </Nav.Item>
+            <Nav.Item className="list-inline-item text-uppercase small">
+              [Weather]
+            </Nav.Item>
+            <Nav.Item className="list-inline-item text-uppercase small">
+              [ST Index]
+            </Nav.Item>
+          </Nav>
+        </Col>
+      </Row>
     );
   }
 }

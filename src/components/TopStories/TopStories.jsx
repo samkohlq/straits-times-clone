@@ -1,4 +1,5 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
 import TopStoriesHeader from "./TopStoriesHeader";
 import TopStoriesContent from "./TopStoriesContent";
@@ -6,13 +7,11 @@ import TopStoriesContent from "./TopStoriesContent";
 class TopStories extends React.Component {
   render() {
     return (
-      <div>
-        <div className="row py-3 ad-bgd justify-content-center border border-danger">
-          <TopStoriesHeader />
-          {/* TODO: add divider */}
-          <TopStoriesContent />
-        </div>
-      </div>
+      <Container className="border border-primary">
+        <TopStoriesHeader />
+        {/* TODO: add divider */}
+        <TopStoriesContent />
+      </Container>
     );
   }
 }
