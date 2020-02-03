@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Image } from "react-bootstrap";
 
-import Logo from "../../images/straits-times-logo.png";
+import Logo from "../static/images/straits-times-logo.png";
 
 class StLogo extends React.Component {
   render() {

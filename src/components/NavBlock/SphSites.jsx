@@ -1,7 +1,7 @@
 import React from "react";
 import { Nav, NavDropdown } from "react-bootstrap";
 
-import "./SphSites.css";
+import "../static/css/SphSites.css";
 
 class SphSites extends React.Component {
   render() {

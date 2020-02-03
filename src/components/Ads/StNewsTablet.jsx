@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Image, Row } from "react-bootstrap";
 
-import image from "../../images/st-news-tablet.png";
+import image from "../static/images/st-news-tablet.png";
 
 class StNewsTablet extends React.Component {
   render() {

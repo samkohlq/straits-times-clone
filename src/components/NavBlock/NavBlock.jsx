@@ -2,6 +2,7 @@ import React from "react";
 
 import { Container, Row, Col } from "react-bootstrap";
 import NavBar from "./NavBar";
+import "../static/css/NavBlock.css";
 import SphSites from "./SphSites";
 import StLogo from "./StLogo";
 
@@ -10,7 +11,7 @@ class NavBlock extends React.Component {
     return (
       <div>
         <Container>
-          <Row>
+          <Row className="bgd">
             <Col md={1}></Col>
             <Col lg={12} md={10}>
               <SphSites />
