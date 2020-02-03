@@ -1,8 +1,13 @@
+.nav-link-inverse {
+  padding: auto;
+  color: white !important;
+}
+
 .navbar-bgd {
   background-color: rgb(12, 43, 87);
 }
 
 .navbar-icon {
-  width: 45%;
+  width: 50%;
   height: auto;
 }

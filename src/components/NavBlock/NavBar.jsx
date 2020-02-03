@@ -1,97 +1,58 @@
 import React from "react";
+import { Container, Nav, Row } from "react-bootstrap";
 
-import Logo from "../../images/straits-times-mini-logo.png";
 import "./NavBar.css";
-import SearchIcon from "../../images/search-icon.png";
 
 class NavBar extends React.Component {
   render() {
     return (
-      <div className="col-lg-12">
-        <div className="row mt-2 navbar-bgd justify-content-center">
-          <div>
-            <img
-              // TODO: vertically align logo
-              className="navbar-icon float-right"
-              src={Logo}
-              alt="straits times logo"
-            />
-          </div>
-          <ul className="navbar nav-fill small text-white text-uppercase my-auto">
-            <li className="list-inline-item">
-              <a className="text-white" href="https://www.straitstimes.com/">
+      <div className="navbar-bgd">
+        <Row>
+          <Container>
+            {/* TODO: Insert logo and search icon*/}
+            <Nav className="mr-auto text-uppercase small">
+              <Nav.Link className="nav-link-inverse" href="#somelink">
                 Singapore
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a className="text-white" href="https://www.straitstimes.com/">
+              </Nav.Link>
+              <Nav.Link className="nav-link-inverse" href="#somelink">
                 Politics
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a className="text-white" href="https://www.straitstimes.com/">
+              </Nav.Link>
+              <Nav.Link className="nav-link-inverse" href="#somelink">
                 Asia
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a className="text-white" href="https://www.straitstimes.com/">
+              </Nav.Link>
+              <Nav.Link className="nav-link-inverse" href="#somelink">
                 World
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a className="text-white" href="https://www.straitstimes.com/">
+              </Nav.Link>
+              <Nav.Link className="nav-link-inverse" href="#somelink">
                 Videos
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a className="text-white" href="https://www.straitstimes.com/">
+              </Nav.Link>
+              <Nav.Link className="nav-link-inverse" href="#somelink">
                 Multimedia
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a className="text-white" href="https://www.straitstimes.com/">
+              </Nav.Link>
+              <Nav.Link className="nav-link-inverse" href="#somelink">
                 Lifestyle
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a className="text-white" href="https://www.straitstimes.com/">
+              </Nav.Link>
+              <Nav.Link className="nav-link-inverse" href="#somelink">
                 Food
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a className="text-white" href="https://www.straitstimes.com/">
+              </Nav.Link>
+              <Nav.Link className="nav-link-inverse" href="#somelink">
                 Forum
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a className="text-white" href="https://www.straitstimes.com/">
+              </Nav.Link>
+              <Nav.Link className="nav-link-inverse" href="#somelink">
                 Opinion
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a className="text-white" href="https://www.straitstimes.com/">
+              </Nav.Link>
+              <Nav.Link className="nav-link-inverse" href="#somelink">
                 Business
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a className="text-white" href="https://www.straitstimes.com/">
+              </Nav.Link>
+              <Nav.Link className="nav-link-inverse" href="#somelink">
                 Sport
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a className="text-white" href="https://www.straitstimes.com/">
+              </Nav.Link>
+              <Nav.Link className="nav-link-inverse" href="#somelink">
                 More ▼
-              </a>
-            </li>
-          </ul>
-          <div>
-            <img
-              className="navbar-icon img-fluid float-left my-2"
-              src={SearchIcon}
-              alt="straits times logo"
-            />
-          </div>
-        </div>
+              </Nav.Link>
+            </Nav>
+          </Container>
+        </Row>
       </div>
     );
   }

@@ -8,9 +8,7 @@ class SphSites extends React.Component {
     return (
       <Nav className="mx-4 small justify-content-between">
         <div>
-          <Nav.Item className="list-inline-item text-uppercase">
-            Edition:
-          </Nav.Item>
+          <span className="text-uppercase navbar-text">Edition: </span>
           <Nav.Item className="mr-auto list-inline-item text-uppercase">
             <Nav.Link href="https://www.straitstimes.com/">Singapore</Nav.Link>
           </Nav.Item>

@@ -15,7 +15,7 @@ class NavBlock extends React.Component {
             <Col lg={12} md={10}>
               <SphSites />
               <Row>
-                <Col lg={7} md={6} xm={8}>
+                <Col lg={7} md={10} xs={10}>
                   <StLogo />
                 </Col>
               </Row>
