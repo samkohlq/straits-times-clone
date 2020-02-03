@@ -13,6 +13,7 @@ class TopStoriesContent extends React.Component {
               <img
                 className="card-img-top"
                 src="../../images/who-rep.png"
+                alt="top story"
               ></img>
               <div className="card-body">
                 <p className="card-text">

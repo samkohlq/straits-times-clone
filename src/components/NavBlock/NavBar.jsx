@@ -19,67 +19,67 @@ class NavBar extends React.Component {
           </div>
           <ul className="navbar nav-fill small text-white text-uppercase my-auto">
             <li className="list-inline-item">
-              <a className="text-white" href="#">
+              <a className="text-white" href="https://www.straitstimes.com/">
                 Singapore
               </a>
             </li>
             <li className="list-inline-item">
-              <a className="text-white" href="#">
+              <a className="text-white" href="https://www.straitstimes.com/">
                 Politics
               </a>
             </li>
             <li className="list-inline-item">
-              <a className="text-white" href="#">
+              <a className="text-white" href="https://www.straitstimes.com/">
                 Asia
               </a>
             </li>
             <li className="list-inline-item">
-              <a className="text-white" href="#">
+              <a className="text-white" href="https://www.straitstimes.com/">
                 World
               </a>
             </li>
             <li className="list-inline-item">
-              <a className="text-white" href="#">
+              <a className="text-white" href="https://www.straitstimes.com/">
                 Videos
               </a>
             </li>
             <li className="list-inline-item">
-              <a className="text-white" href="#">
+              <a className="text-white" href="https://www.straitstimes.com/">
                 Multimedia
               </a>
             </li>
             <li className="list-inline-item">
-              <a className="text-white" href="#">
+              <a className="text-white" href="https://www.straitstimes.com/">
                 Lifestyle
               </a>
             </li>
             <li className="list-inline-item">
-              <a className="text-white" href="#">
+              <a className="text-white" href="https://www.straitstimes.com/">
                 Food
               </a>
             </li>
             <li className="list-inline-item">
-              <a className="text-white" href="#">
+              <a className="text-white" href="https://www.straitstimes.com/">
                 Forum
               </a>
             </li>
             <li className="list-inline-item">
-              <a className="text-white" href="#">
+              <a className="text-white" href="https://www.straitstimes.com/">
                 Opinion
               </a>
             </li>
             <li className="list-inline-item">
-              <a className="text-white" href="#">
+              <a className="text-white" href="https://www.straitstimes.com/">
                 Business
               </a>
             </li>
             <li className="list-inline-item">
-              <a className="text-white" href="#">
+              <a className="text-white" href="https://www.straitstimes.com/">
                 Sport
               </a>
             </li>
             <li className="list-inline-item">
-              <a className="text-white" href="#">
+              <a className="text-white" href="https://www.straitstimes.com/">
                 More ▼
               </a>
             </li>
