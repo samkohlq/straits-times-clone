@@ -1,33 +1,36 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 
+import MainStory from "./MainStory";
+import Story from "./Story";
+
 class TopStoriesContent extends React.Component {
   render() {
     return (
-      <React.Fragment>
+      <div>
         <Row>
-          <Col lg md={8} className="border border-success">
-            test
+          <Col md lg={8}>
+            <MainStory />
           </Col>
-          <Col lg md={4} className="border border-danger">
-            test2
+          <Col md lg={4}>
+            <Story />
           </Col>
         </Row>
         <Row>
-          <Col lg md={3} className="border border-warning">
-            1
+          <Col md lg={3}>
+            <Story />
           </Col>
-          <Col lg md={3} className="border border-warning">
-            2
+          <Col md lg={3}>
+            <Story />
           </Col>
-          <Col lg md={3} className="border border-warning">
-            3
+          <Col md lg={3}>
+            <Story />
           </Col>
-          <Col lg md={3} className="border border-warning">
-            4
+          <Col md lg={3}>
+            <Story />
           </Col>
         </Row>
-      </React.Fragment>
+      </div>
     );
   }
 }

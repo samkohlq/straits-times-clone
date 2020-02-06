@@ -7,7 +7,7 @@ import TopStoriesContent from "./TopStoriesContent";
 class TopStories extends React.Component {
   render() {
     return (
-      <Container className="border border-primary">
+      <Container>
         <TopStoriesHeader />
         {/* TODO: add divider */}
         <TopStoriesContent />
