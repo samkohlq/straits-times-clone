@@ -11,7 +11,7 @@ class TopStories extends React.Component {
     return (
       <Container>
         <TopStoriesHeader />
-        <Row className="mb-3">
+        <Row>
           <MainStory />
           <Story />
         </Row>

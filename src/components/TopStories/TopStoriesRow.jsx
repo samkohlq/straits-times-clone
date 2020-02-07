@@ -1,12 +1,12 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import { Row } from "react-bootstrap";
 
 import Story from "./Story";
 
 class TopStoriesRow extends React.Component {
   render() {
     return (
-      <Row className="mb-3">
+      <Row>
         <Story />
         <Story />
         <Story />

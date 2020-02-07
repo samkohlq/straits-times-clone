@@ -1,0 +1,26 @@
+.footer {
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  line-height: 30px;
+  background-color: rgb(12, 43, 87);
+  color: white;
+}
+
+.footer-link-inverse {
+  padding: auto;
+  color: white !important;
+}
+
+.brand {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.brand-details {
+  line-height: 18px;
+}
+
+.icon {
+  width: 30px;
+  height: auto;
+}

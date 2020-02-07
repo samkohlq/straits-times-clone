@@ -7,7 +7,7 @@ import storyImage from "../static/images/story-image.png";
 class Story extends React.Component {
   render() {
     return (
-      <Col md lg={3}>
+      <Col md lg={3} className="mb-3">
         <Card className="h-100">
           <Card.Img variant="top" src={storyImage} />
           <Card.Body>
