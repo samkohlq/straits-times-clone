@@ -1,16 +1,22 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 
+import MainStory from "./MainStory";
+import Story from "./Story";
 import TopStoriesHeader from "./TopStoriesHeader";
-import TopStoriesContent from "./TopStoriesContent";
+import TopStoriesRow from "./TopStoriesRow";
 
 class TopStories extends React.Component {
   render() {
     return (
       <Container>
         <TopStoriesHeader />
-        {/* TODO: add divider */}
-        <TopStoriesContent />
+        <Row className="mb-3">
+          <MainStory />
+          <Story />
+        </Row>
+        <TopStoriesRow />
+        <TopStoriesRow />
       </Container>
     );
   }

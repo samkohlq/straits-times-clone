@@ -8,6 +8,7 @@ class TopStoriesHeader extends React.Component {
     return (
       <Row className="justify-content-between">
         {/* top stories title */}
+        {/* TODO: add divider */}
         <Col lg={4} md={3} className="subsection-title">
           Top stories
         </Col>
