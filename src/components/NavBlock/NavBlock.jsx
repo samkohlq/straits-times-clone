@@ -10,8 +10,8 @@ class NavBlock extends React.Component {
   render() {
     return (
       <div>
-        <Container>
-          <Row className="bgd">
+        <Row className="bgd">
+          <Container>
             <Col md={1}></Col>
             <Col lg={12} md={10}>
               <SphSites />
@@ -22,8 +22,9 @@ class NavBlock extends React.Component {
               </Row>
             </Col>
             <Col md={1}></Col>
-          </Row>
-        </Container>
+          </Container>
+        </Row>
+
         <NavBar />
       </div>
     );

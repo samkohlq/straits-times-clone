@@ -7,7 +7,7 @@ import storyImage from "../static/images/story-image.png";
 class Story extends React.Component {
   render() {
     return (
-      <Card className="my-auto story-card">
+      <Card className="h-100">
         <Card.Img variant="top" src={storyImage} />
         <Card.Body>
           <Card.Title className="story-title">

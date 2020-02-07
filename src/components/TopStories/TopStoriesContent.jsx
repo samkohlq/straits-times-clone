@@ -8,11 +8,11 @@ class TopStoriesContent extends React.Component {
   render() {
     return (
       <div>
-        <Row>
-          <Col md lg={8}>
+        <Row className="mb-3">
+          <Col md lg={9}>
             <MainStory />
           </Col>
-          <Col md lg={4}>
+          <Col md lg={3}>
             <Story />
           </Col>
         </Row>

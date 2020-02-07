@@ -7,7 +7,7 @@ import mainStoryImage from "../static/images/main-story-image.png";
 class MainStory extends React.Component {
   render() {
     return (
-      <Card className="main-story-card my-auto">
+      <Card className="main-story-card my-auto h-100">
         {/* TODO: Align text on left, image on right */}
         <Card.Body className="d-flex flex-column align-items-start">
           <h4>
