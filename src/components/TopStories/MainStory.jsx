@@ -2,7 +2,7 @@ import React from "react";
 import { Card } from "react-bootstrap";
 
 import "../static/css/TopStoriesContent.css";
-import MainStoryImage from "../static/images/main-story-image.png";
+import mainStoryImage from "../static/images/main-story-image.png";
 
 class MainStory extends React.Component {
   render() {
@@ -23,7 +23,7 @@ class MainStory extends React.Component {
           </div>
           <Card.Img
             className="card-img-right main-story-image flex-auto d-none d-md-block"
-            src={MainStoryImage}
+            src={mainStoryImage}
           ></Card.Img>
         </Card.Body>
       </Card>
