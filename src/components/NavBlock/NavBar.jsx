@@ -14,7 +14,45 @@ class NavBar extends React.Component {
             <img alt="ST logo" src={stMiniLogo} width="30" height="auto" />
           </Navbar.Brand>
           <Nav className="text-uppercase">
-            <NavItem />
+            <Nav.Link href="#somelink" className="nav-link-inverse">
+              Singpore
+            </Nav.Link>
+            <Nav.Link href="#somelink" className="nav-link-inverse">
+              Politics
+            </Nav.Link>
+            <Nav.Link href="#somelink" className="nav-link-inverse">
+              Asia
+            </Nav.Link>
+            <Nav.Link href="#somelink" className="nav-link-inverse">
+              World
+            </Nav.Link>
+            <Nav.Link href="#somelink" className="nav-link-inverse">
+              Videos
+            </Nav.Link>
+            <Nav.Link href="#somelink" className="nav-link-inverse">
+              Lifestyle
+            </Nav.Link>
+            <Nav.Link href="#somelink" className="nav-link-inverse">
+              Food
+            </Nav.Link>
+            <Nav.Link href="#somelink" className="nav-link-inverse">
+              Multimedia
+            </Nav.Link>
+            <Nav.Link href="#somelink" className="nav-link-inverse">
+              Forum
+            </Nav.Link>
+            <Nav.Link href="#somelink" className="nav-link-inverse">
+              Opinion
+            </Nav.Link>
+            <Nav.Link href="#somelink" className="nav-link-inverse">
+              Business
+            </Nav.Link>
+            <Nav.Link href="#somelink" className="nav-link-inverse">
+              Sport
+            </Nav.Link>
+            <Nav.Link href="#somelink" className="nav-link-inverse">
+              More ▼
+            </Nav.Link>
           </Nav>
         </Container>
       </Navbar>
