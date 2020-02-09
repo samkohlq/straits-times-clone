@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.903fc3fa.chunk.css",
+    "main.js": "/my-app/static/js/main.8f083fbc.chunk.js",
+    "main.js.map": "/my-app/static/js/main.8f083fbc.chunk.js.map",
+    "runtime-main.js": "/my-app/static/js/runtime-main.62bb53ae.js",
+    "runtime-main.js.map": "/my-app/static/js/runtime-main.62bb53ae.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/my-app/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.0651c7f9.chunk.js": "/my-app/static/js/2.0651c7f9.chunk.js",
+    "static/js/2.0651c7f9.chunk.js.map": "/my-app/static/js/2.0651c7f9.chunk.js.map",
+    "index.html": "/my-app/index.html",
+    "precache-manifest.7044226dbd356dfe6e620e1e4ad4f181.js": "/my-app/precache-manifest.7044226dbd356dfe6e620e1e4ad4f181.js",
+    "service-worker.js": "/my-app/service-worker.js",
+    "static/css/2.47e06e2e.chunk.css.map": "/my-app/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.903fc3fa.chunk.css.map": "/my-app/static/css/main.903fc3fa.chunk.css.map",
+    "static/js/2.0651c7f9.chunk.js.LICENSE": "/my-app/static/js/2.0651c7f9.chunk.js.LICENSE",
+    "static/media/RSS-feed.png": "/my-app/static/media/RSS-feed.35909c4e.png",
+    "static/media/facebook.png": "/my-app/static/media/facebook.168e6557.png",
+    "static/media/instagram.png": "/my-app/static/media/instagram.fb782cc3.png",
+    "static/media/main-story-image.png": "/my-app/static/media/main-story-image.03dc8c9a.png",
+    "static/media/pinterest.png": "/my-app/static/media/pinterest.5038798c.png",
+    "static/media/st-news-tablet.png": "/my-app/static/media/st-news-tablet.58f685ad.png",
+    "static/media/story-image.png": "/my-app/static/media/story-image.5d05e810.png",
+    "static/media/straits-times-logo.png": "/my-app/static/media/straits-times-logo.5a18866a.png",
+    "static/media/twitter.png": "/my-app/static/media/twitter.7679b907.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.62bb53ae.js",
+    "static/css/2.47e06e2e.chunk.css",
+    "static/js/2.0651c7f9.chunk.js",
+    "static/css/main.903fc3fa.chunk.css",
+    "static/js/main.8f083fbc.chunk.js"
+  ]
+}
