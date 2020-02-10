@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 
 import "../static/css/NavBar.css";
-import NavItem from "./NavItem";
 import stMiniLogo from "../static/images/straits-times-mini-logo.png";
 
 class NavBar extends React.Component {
